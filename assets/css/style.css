@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.landing {
+	position: relative;
+	background-image: url('../images/landing.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100vh;
+	text-align: center;
+	padding: 0 5vw;
+}
+
+.landing h1 {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	margin-top: 60px;
+}
+
+.logo {
+	padding-top: 5vh;
+	width: 160px;
+}
+
+footer {
+	text-align: center;
+	position: absolute;
+	bottom: 5px;
+	font-size: 0.9em;
+	padding: 0;
+	width: 90%;
+	left: 5%;
+}
+
+.direcciones {
+	font-weight: 900;
+}
+
+
+
+@media (min-width: 768px) {
+
+.landing {
+	background-image: url('../images/landing-tblt.jpg');
+}
+
+.landing h1 {
+	text-transform: uppercase;
+	font-size: 2.5em;
+	margin-top: 5vh;
+}
+
+.logo {
+	width: 200px;
+}
+
+footer {
+	width: 50%;
+	position: absolute;
+	bottom: 0px;
+	left: 25%;
+	font-size: 1.2em;
+	padding: 0;
+}
+
+.direcciones {
+	margin-top: -10px;
+}
+
+
+@media (min-width: 1280px) {
+
+.landing {
+	background-image: url('../images/landing-dsktp.jpg');
+	text-align: right;
+}
+
+
+
+.logo {
+	display: inline-block;
+	text-align: right;
+}
+
+.landing h1 {
+	text-transform: uppercase;
+	font-size: 2.8em;
+	margin-top: 40vh;
+	text-align: center;
+}
+
+}
+
+@media (min-width: 1440px) {
+
+.landing {
+	background-image: url('../images/landing-dsktp.jpg');
+	text-align: right;
+}
+
+
+
+.logo {
+	display: inline-block;
+	text-align: right;
+}
+
+.landing h1 {
+	text-transform: uppercase;
+	font-size: 3em;
+	margin-top: 40vh;
+	text-align: center;
+}
+
+}
+
+@media (min-width: 1920px) {
+
+.landing h1 {
+	text-transform: uppercase;
+	font-size: 3em;
+	margin-top: 40vh;
+	text-align: center;
+}
+
+}
